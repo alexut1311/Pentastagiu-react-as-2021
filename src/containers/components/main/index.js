@@ -11,8 +11,8 @@ export default function Main({videoList}) {
           <h3>React course with Cassidy Williams</h3>
         </div>
         <div className="list-container">
-        {videoList.map((videoContaier, index) => {
-            return <VideoContainer key={index} element={videoContaier}/>
+        {videoList.map((videoContainer, index) => {
+            return <VideoContainer key={index} element={videoContainer}/>
         })}
         </div>
       </section>
